@@ -166,60 +166,6 @@
             </div>
         </section>
 <!-- end -->
- <? /*
-<div class="filterBlock">
-  <div class="filters">
-  <div class="links-container">
-  <div class="links-block">
-    <h2>Каталог</h2>
-    <div class="link-item">
-      <a href="/products/4/">Светодиодные драйверы</a>
-      <span class="arrow">
-		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg>
-</span>
-    </div>
-    <div class="link-item">
-      <a href="/products/2/">Светодиодные модули</a>
-      <span class="arrow">		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg></span>
-    </div>
-    <div class="link-item">
-      <a href="/products/3/">Вторичная оптика</a>
-      <span class="arrow">		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg></span>
-    </div>
-  </div>
-  <div class="links-block">
-    <h2>Публикации</h2>
-    <div class="link-item">
-      <a href="/products/4/">Светодиодные драйверы</a>
-      <span class="arrow">		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg></span>
-    </div>
-    <div class="link-item">
-      <a href="#">Светодиодные модули</a>
-      <span class="arrow">		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg></span>
-    </div>
-    <div class="link-item">
-      <a href="#">Вторичная оптика</a>
-      <span class="arrow">		<svg class="icon">
-          <use xlink:href="#arrow--left"></use>
-        </svg></span>
-    </div>
-  </div>
-  </div>
-   </div>
-</div> */?>
-<? /*
-<div class="itemsBlock">
-	<div class="goodsBlock"> */?>
 <?
 // Генерация массива для передачи данных во фронтенд
 $jsData = [];

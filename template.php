@@ -1,12 +1,3 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<div class=""><!-- container catalogContainer -->
-<?if($arParams["DISPLAY_TOP_PAGER"]):?>
-	<?=$arResult["NAV_STRING"]?><br />
-<?endif;?>
-<!--  begin -->
-<section class="section-breadcrumbs">
-            <p><a href="/">Главная</a>&nbsp;/&nbsp;<a href="#">Светодиодные драйверы</a></p>
-        </section>
         <section class="section-catalog">
             <div class="row">
                 <div class="col section-headercont">
@@ -82,14 +73,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion" role="tablist" id="catalog-accordion-catalog">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button accordion-button__level1" type="button" data-bs-toggle="collapse" data-bs-target="#catalog-accordion-catalog .item-1" aria-expanded="true" aria-controls="catalog-accordion-catalog .item-1">КАТАЛОГ</button></h2>
-                            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#catalog-accordion-catalog">
-                                <div class="accordion-body"><a class="filters-label banner-caps filter-catalog_link" href="#">светодиодные драйверы</a><a class="filters-label banner-caps filter-catalog_link" href="#">светодиодные модули</a><a class="filters-label banner-caps filter-catalog_link" href="#">светодиоды COB и SMD</a><a class="filters-label banner-caps filter-catalog_link" href="#">вторичная оптика</a><a class="filters-label banner-caps filter-catalog_link" href="#">корпуса для светильников</a><a class="filters-label banner-caps filter-catalog_link" href="#">расходные материалы</a><a class="filters-label banner-caps filter-catalog_link" href="#">производство под заказ</a></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col columns-3">
                     <div class="container" id="catalog-header">
@@ -107,103 +90,7 @@
                         </div>
                         <div id="cards-view" style="display: none;">
                             <div id="catalog-content-cards">
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div><a class="shopping-card-link" href="#"></a>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/MLT-PSG100-700-IP65.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps">MLT-PSG100-700-IP65<br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 907 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
-                                    <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                    <div class="shopping-card-prodgroup">
-                                        <p>Светодиодный драйвер</p>
-                                    </div>
-                                    <div class="shopping-card-prodname">
-                                        <h4 class="banner-caps"><strong>MLT-PSG40-350-IP65e</strong><br></h4>
-                                    </div>
-                                    <div class="shopping-card-pricebuy">
-                                        <p><strong>От 467 ₽&nbsp;</strong></p><button class="btn btn-primary btn-mlt btn-mlt_small" type="button">Купить</button>
-                                    </div>
-                                </div>
-                                <div class="shopping-card">
+                               <div class="shopping-card">
                                     <div class="fixheight_contaner"><img class="shopping-card-image" src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
                                     <div class="shopping-card-prodgroup">
                                         <p>Светодиодный драйвер</p>
@@ -229,7 +116,8 @@
                             </nav>
                         </div>
                         <div id="table-view">
-                            <div id="catalog-content-table"><a class="catalog_row_url" href="#">
+                            <div id="catalog-content-table">
+				    <a class="catalog_row_url" href="#">
                                     <div class="catalog-row">
                                         <div class="prod-image"><img src="assets/img/MLT-PSG80-700-IP65.png"></div>
                                         <div class="prod-name">
@@ -255,59 +143,8 @@
                                             <p>От 875 ₽</p>
                                         </div>
                                     </div>
-                                </a><a class="catalog_row_url" href="#">
-                                    <div class="catalog-row">
-                                        <div class="prod-image"><img src="assets/img/PSG40-350-IP65E%20new%201.png"></div>
-                                        <div class="prod-name not-exist">
-                                            <p><strong>MLT-PSG80-700-IP65</strong></p>
-                                            <p>Нет в наличии</p>
-                                        </div>
-                                        <div class="prod-power">
-                                            <p>50-80</p>
-                                        </div>
-                                        <div class="prod-current">
-                                            <p>700</p>
-                                        </div>
-                                        <div class="prod-voltage">
-                                            <p>72-115</p>
-                                        </div>
-                                        <div class="prod-protect">
-                                            <p>IP 65</p>
-                                        </div>
-                                        <div class="prod-wtime">
-                                            <p>5 лет</p>
-                                        </div>
-                                        <div class="prod-price">
-                                            <p>От 875 ₽</p>
-                                        </div>
-                                    </div>
-                                </a><a class="catalog_row_url" href="#">
-                                    <div class="catalog-row">
-                                        <div class="prod-image"><img src="assets/img/MLT-PS50-350-IP20ET%201.png"></div>
-                                        <div class="prod-name">
-                                            <p><strong>MLT-PSG80-700-IP65</strong></p>
-                                            <p>В наличии</p>
-                                        </div>
-                                        <div class="prod-power">
-                                            <p>50-80</p>
-                                        </div>
-                                        <div class="prod-current">
-                                            <p>700</p>
-                                        </div>
-                                        <div class="prod-voltage">
-                                            <p>72-115</p>
-                                        </div>
-                                        <div class="prod-protect">
-                                            <p>IP 65</p>
-                                        </div>
-                                        <div class="prod-wtime">
-                                            <p>5 лет</p>
-                                        </div>
-                                        <div class="prod-price">
-                                            <p>От 875 ₽</p>
-                                        </div>
-                                    </div>
-                                </a></div>
+                                </a>
+			    </div>
                             <nav class="catalog-paginator">
                                 <ul class="pagination" id="paginator-drivers">
                                     <li class="page-item"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
@@ -323,9 +160,6 @@
                     </div>
                     <div class="container" id="catalog-footer">
                         <div class="catalog-text">
-                            <h4><strong>купить светодиодные драйверы в спб от производителя</strong></h4>
-                            <p>В нынешние времена появляется все больше вариантов осветительных устройств и&nbsp;техники. Потребность в&nbsp;простых в&nbsp;установке и&nbsp;эксплуатации модулях возникает гораздо чаще. Практика показывает, что led-технологии более перспективны.<br></p>
-                            <p>Светодиодный led-модуль&nbsp;современен и&nbsp;универсален. Модули герметичные, не&nbsp;содержат ртути, тяжелых металлов или вредных газов и&nbsp;подлежат вторичной переработке. Еще один показатель качества&nbsp;— это пульсация. Пульсация светового потока светодиодов не&nbsp;значительна.&nbsp;Светодиодные модули&nbsp;выпускаются разнообразным характеристиками: размер, форма, диапазон мощностей. Мощные светодиодные устройства применяются для освещения улиц, для помещений&nbsp;же&nbsp;используются модули с&nbsp;меньшей яркостью.</p>
                         </div>
                     </div>
                 </div>
@@ -433,67 +267,3 @@ foreach ($arResult["ITEMS"] as $item) {
   ?>;
 </script>
 
-<? /*
-foreach($arResult["ITEMS"] as $cell=>$arElement):
-	$width = 0;
-	$this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
-	$this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CATALOG_ELEMENT_DELETE_CONFIRM')));
-?>
-<div class="catalogItem" id="<?=$this->GetEditAreaId($arElement['ID']);?>">
-<?
-	if(is_array($arElement["PREVIEW_PICTURE"])):
-		$width = $arElement["PREVIEW_PICTURE"]["WIDTH"];
-?>
-	<div class="catalogItemImage">
-		<a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><img src="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?>" width="<?=$arElement["PREVIEW_PICTURE"]["WIDTH"]?>" height="<?=$arElement["PREVIEW_PICTURE"]["HEIGHT"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" /></a>
-	</div>
-<?
-	elseif(is_array($arElement["DETAIL_PICTURE"])):
-		$width = $arElement["DETAIL_PICTURE"]["WIDTH"];
-?>
-	<div class="catalogItemImage">
-		<a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><img src="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" width="<?=$arElement["DETAIL_PICTURE"]["WIDTH"]?>" height="<?=$arElement["DETAIL_PICTURE"]["HEIGHT"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" /></a>
-	</div>
-<?
-	endif;
-?>
-	<div class="catalogItemTitle"><a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><?=$arElement["NAME"]?></a></div>
-
-	<div class="catalogItemDesc"> <!-- <?=$width < 300 ? '-float' : ''?> --> 
-		<?=$arElement["PREVIEW_TEXT"]?>
-	</div>
-	<?
-	foreach($arElement["DISPLAY_PROPERTIES"] as $pid=>$arProperty):
-		if ($pid != 'PRICECURRENCY'):
-?>
-  <div class="catalogPriceProperty">
-		<?=$arProperty["NAME"]?>:&nbsp;<?
-			if(is_array($arProperty["DISPLAY_VALUE"]))
-				echo implode("&nbsp;/&nbsp;", $arProperty["DISPLAY_VALUE"]);
-			else
-				echo $arProperty["DISPLAY_VALUE"];?><br />
- </div>
-<?
-		endif;
-	endforeach;
-?>
-<?
-	foreach($arElement["PRICES"] as $code=>$arPrice):
-		if($arPrice["CAN_ACCESS"]):
-?>
-	<div class="catalog-item-price"><span>
-		<?=$arResult["PRICES"][$code]["TITLE"];?>:</span> <?=$arPrice["PRINT_VALUE"]?></div>
-<?
-		endif;
-	endforeach;
-?>
-</div>
-<?
-endforeach; // foreach($arResult["ITEMS"] as $arElement):
-?>
-</div>
-<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
-	<br /><?=$arResult["NAV_STRING"]?>
-<?endif;?>
-</div>
-</div>  */?>
